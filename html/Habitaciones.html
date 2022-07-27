@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +15,14 @@
   <link rel="stylesheet" href="../css/habitaciones.css">
   <title>Habitaciones</title>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bgNav">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html">Hotel California</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
         <ul class="navbar-nav">
@@ -52,17 +56,23 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </article>
         <article class="modal-body ">
-          <form class="text-center">  
+          <form class="text-center">
             <label for="lbl-lda" class="me-2 modal-text">Llegada</label>
-            <input type="date" name="llegada" id="lbl-lda" class="me-md-3 mb-3 mb-md-2 d-block d-md-inline mx-auto modal-text" min="2022-07-28" max="2022-12-25" required>
+            <input type="date" name="llegada" id="lbl-lda"
+              class="me-md-3 mb-3 mb-md-2 d-block d-md-inline mx-auto modal-text" min="2022-07-28" max="2022-12-25"
+              required>
             <label for="lbl-sda" class="me-2 modal-text">Salida</label>
-            <input type="date" name="salida" id="lbl-sda" class="d-block d-md-inline mb-3 mb-md-2 mx-auto modal-text" min="2022-07-26" max="2022-12-25" required>  
+            <input type="date" name="salida" id="lbl-sda" class="d-block d-md-inline mb-3 mb-md-2 mx-auto modal-text"
+              min="2022-07-26" max="2022-12-25" required>
             <label for="lbl-adul" class="d-block mb-2 modal-text">Adultos</label>
-            <input type="number" name="adultos" id="lbl-adul" min="1" max="2" value="1" class="d-block mx-auto mb-3 mb-md-2 modal-text" required>
+            <input type="number" name="adultos" id="lbl-adul" min="1" max="2" value="1"
+              class="d-block mx-auto mb-3 mb-md-2 modal-text" required>
             <label for="lbl-nino" class="d-block mb-2 modal-text">Niños</label>
-            <input type="number" id="lbl-nino" min="0" max="10" value="0" class="d-block mx-auto mb-3 mb-md-2 modal-text" required>
+            <input type="number" id="lbl-nino" min="0" max="10" value="0"
+              class="d-block mx-auto mb-3 mb-md-2 modal-text" required>
             <label for="lbl-hab" class="d-block mb-2 modal-text">Habitaciones</label>
-            <input type="number" min="1" max="6" value="1" class="d-block mx-auto mb-3 mb-md-2 modal-text" id="lbl-hab" required>
+            <input type="number" min="1" max="6" value="1" class="d-block mx-auto mb-3 mb-md-2 modal-text" id="lbl-hab"
+              required>
             <label for="lbl-codigo" class="d-block mb-1 modal-text">Código promocional</label>
             <input type="text" id="lbl-codigo" class="d-block mx-auto mb-3 modal-text" maxlength="4" name="codigo">
             <section class="modal-footer">
@@ -94,16 +104,16 @@
       </form>
       <article>
         <a href="https://www.facebook.com/" target="_blank" class="text-decoration-none text-white">
-        <i class="bi bi-facebook me-1"></i>
+          <i class="bi bi-facebook me-1"></i>
         </a>
         <a href="https://web.whatsapp.com/" target="_blank" class="text-decoration-none text-white">
-        <i class="bi bi-whatsapp me-1"></i>
+          <i class="bi bi-whatsapp me-1"></i>
         </a>
         <a href="https://www.instagram.com/" class="text-decoration-none text-white">
-        <i class="bi bi-instagram me-1"></i>
+          <i class="bi bi-instagram me-1"></i>
         </a>
         <a href="https://web.telegram.org/" target="_blank" class="text-decoration-none text-white">
-        <i class="bi bi-telegram"></i>
+          <i class="bi bi-telegram"></i>
         </a>
       </article>
     </section>
@@ -111,7 +121,10 @@
       <div>
         <h1 class="titleSec text-center">Habitaciones & Suites</h1>
         <div class="d-flex justify-content-center">
-          <p class="subtitleSec text-center">El Hotel California se destaca por su originalidad en las habitaciones, cuenta con habitaciones muy cómodas y se adapta a las necesidades de los huéspedes de la mejor manera. La limpieza y orden de ellas tiene 5 estrellas en sus comentarios y esta completamente equipada para que disfrutes de unas excelentes vacaciones.</p>
+          <p class="subtitleSec text-center">El Hotel California se destaca por su originalidad en las habitaciones,
+            cuenta con habitaciones muy cómodas y se adapta a las necesidades de los huéspedes de la mejor manera. La
+            limpieza y orden de ellas tiene 5 estrellas en sus comentarios y esta completamente equipada para que
+            disfrutes de unas excelentes vacaciones.</p>
         </div>
       </div>
     </section>
@@ -122,7 +135,9 @@
             <div class="imgCardHabP d-flex justify-content-center">
               <div class="infoImg">
                 <p class="titleImg">PARÍS</p>
-                <p class="textImg">Ciudad esplendorosa, vibrante, ciudad de la moda y los grandes gourmets, ciudad de amplias avenidas y plazas de esplendor, monumentos y edificios históricos, los mejores museos, París tiene todo lo que buscáis.</p>
+                <p class="textImg">Ciudad esplendorosa, vibrante, ciudad de la moda y los grandes gourmets, ciudad de
+                  amplias avenidas y plazas de esplendor, monumentos y edificios históricos, los mejores museos, París
+                  tiene todo lo que buscáis.</p>
               </div>
             </div>
           </div>
@@ -130,7 +145,8 @@
             <div>
               <h3 class="titleCardHab">PARÍS</h3>
               <p class="subtitlteCardHab">3 Dormitorios / 2 Baños Privados / 5 a 6 Huéspedes</p>
-              <button class="btn btn1" data-bs-toggle="modal" data-bs-target="#botonModalParis" type="submit">Saber Más</button>
+              <button class="btn btn1" data-bs-toggle="modal" data-bs-target="#botonModalParis" type="submit">Saber
+                Más</button>
             </div>
           </div>
           <div>
@@ -147,20 +163,24 @@
                         <div id="carouselParis" class="carousel slide" data-bs-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img src="../images/imgHab/parisGal-1.jpg" class="d-block w-100 imgCarrusel" alt="Primera imagen de la galería de Paris">
+                              <img src="../images/imgHab/parisGal-1.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Primera imagen de la galería de Paris">
                             </div>
                             <div class="carousel-item">
-                              <img src="../images/imgHab/parisGal-2.jpg" class="d-block w-100 imgCarrusel" alt="Segunda imagen de la galería de Paris">
+                              <img src="../images/imgHab/parisGal-2.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Segunda imagen de la galería de Paris">
                             </div>
                             <div class="carousel-item">
-                              <img src="../images/imgHab/parisGal-3.jpg" class="d-block w-100 imgCarrusel" alt="Tercera imagen de la galería de Paris">
+                              <img src="../images/imgHab/parisGal-3.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Tercera imagen de la galería de Paris">
                             </div>
                           </div>
                         </div>
                       </div>
                       <div class="col-12 col-lg-4 d-flex align-items-center textModal">
                         <div>
-                          <p>Esta habitación es una de las más solicitadas por los huéspedes dado que contiene todo lo que ellos buscan.</p>
+                          <p>Esta habitación es una de las más solicitadas por los huéspedes dado que contiene todo lo
+                            que ellos buscan.</p>
                           <ul>
                             <li>Desayuno en habitación.</li>
                             <li>Contiene dos baños totalmente equipados.</li>
@@ -180,23 +200,27 @@
       </div>
       <div class="mt-5">
         <div class="row m-0 p-0">
-        <section class="d-flex flex-column-reverse flex-md-row">
-          <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
-            <div>
-              <h3 class="titleCardHab">FIYI</h3>
-              <p class="subtitlteCardHab">2 Dormitorios / 1 Baño Privado / 2 a 3 Huéspedes</p>
-              <button class="btn btn1" data-bs-toggle="modal" data-bs-target="#botonModalFiyi" type="submit">Saber Más</button>
-            </div>
-          </div>
-          <div class="col-10 col-md-6 col-lg-6 d-flex justify-content-center mx-auto">
-            <div class="imgCardHabF d-flex justify-content-center">
-              <div class="infoImg">
-                <p class="titleImg">FIYI</p>
-                <p class="textImg">Fiyi es famoso por los tours que realizan en las aldeas tradicionales y todas las interacciones que se pueden tener allí, desde pasar una noche en una casa tradicional hasta tiendas de artesanías locales. Eso sí, al visitar un pueblo de estos es necesario presentar un regalo al anciano de la aldea, como una muestra de respeto</p>
+          <section class="d-flex flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+              <div>
+                <h3 class="titleCardHab">FIYI</h3>
+                <p class="subtitlteCardHab">2 Dormitorios / 1 Baño Privado / 2 a 3 Huéspedes</p>
+                <button class="btn btn1" data-bs-toggle="modal" data-bs-target="#botonModalFiyi" type="submit">Saber
+                  Más</button>
               </div>
             </div>
-          </div>
-        </section>
+            <div class="col-10 col-md-6 col-lg-6 d-flex justify-content-center mx-auto">
+              <div class="imgCardHabF d-flex justify-content-center">
+                <div class="infoImg">
+                  <p class="titleImg">FIYI</p>
+                  <p class="textImg">Fiyi es famoso por los tours que realizan en las aldeas tradicionales y todas las
+                    interacciones que se pueden tener allí, desde pasar una noche en una casa tradicional hasta tiendas
+                    de artesanías locales. Eso sí, al visitar un pueblo de estos es necesario presentar un regalo al
+                    anciano de la aldea, como una muestra de respeto</p>
+                </div>
+              </div>
+            </div>
+          </section>
           <div>
             <div class="modal fade" id="botonModalFiyi" tabindex="-1" aria-labelledby="modalFiyi" aria-hidden="true">
               <div class="modal-dialog modal-xl">
@@ -211,20 +235,24 @@
                         <div id="carouselFiyi" class="carousel slide" data-bs-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img src="../images/imgHab/fiyiGal-1.jpg" class="d-block w-100 imgCarrusel" alt="Primera imagen de la galería de FIYI">
+                              <img src="../images/imgHab/fiyiGal-1.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Primera imagen de la galería de FIYI">
                             </div>
                             <div class="carousel-item">
-                              <img src="../images/imgHab/fiyiGal-2.jpg" class="d-block w-100 imgCarrusel" alt="Segunda imagen de la galería de FIYI">
+                              <img src="../images/imgHab/fiyiGal-2.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Segunda imagen de la galería de FIYI">
                             </div>
                             <div class="carousel-item">
-                              <img src="../images/imgHab/fiyiGal-3.jpg" class="d-block w-100 imgCarrusel" alt="Tercera imagen de la galería de FIYI">
+                              <img src="../images/imgHab/fiyiGal-3.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Tercera imagen de la galería de FIYI">
                             </div>
                           </div>
                         </div>
                       </div>
                       <div class="col-12 col-lg-4 d-flex align-items-center textModal">
                         <div>
-                          <p>Esta habitación es una de las más solicitadas por los huéspedes dado que contiene todo lo que ellos buscan.</p>
+                          <p>Esta habitación es una de las más solicitadas por los huéspedes dado que contiene todo lo
+                            que ellos buscan.</p>
                           <ul>
                             <li>Desayuno en habitación.</li>
                             <li>Contiene dos baños totalmente equipados.</li>
@@ -248,7 +276,12 @@
             <div class="imgCardHabN d-flex justify-content-center">
               <div class="infoImg">
                 <p class="titleImg">NEW YORK</p>
-                <p class="textImg">Tal vez la razón más fuerte del por qué debes ir a Nueva York es que es una ciudad que siempre te sorprenderá, en la Gran Manzana cada día siempre hay algo nuevo que hacer, es una ciudad en donde puedes compartir con diferentes culturas dentro de un mismo espacio, es la Ciudad que Nunca Duerme, que nunca para y siempre está en movimiento, es la metrópoli de los rascacielos, de los museos, de gigantescos y hermosos parques, es una ciudad que te cambiará la vida una vez que la visitas.</p>
+                <p class="textImg">Tal vez la razón más fuerte del por qué debes ir a Nueva York es que es una ciudad
+                  que siempre te sorprenderá, en la Gran Manzana cada día siempre hay algo nuevo que hacer, es una
+                  ciudad en donde puedes compartir con diferentes culturas dentro de un mismo espacio, es la Ciudad que
+                  Nunca Duerme, que nunca para y siempre está en movimiento, es la metrópoli de los rascacielos, de los
+                  museos, de gigantescos y hermosos parques, es una ciudad que te cambiará la vida una vez que la
+                  visitas.</p>
               </div>
             </div>
           </div>
@@ -256,7 +289,8 @@
             <div>
               <h3 class="titleCardHab">NEW YORK</h3>
               <p class="subtitlteCardHab">1 Dormitorio / 1 Baño Privado / 1 a 2 Huéspedes</p>
-              <button class="btn btn1" data-bs-toggle="modal" data-bs-target="#botonModalNY" type="submit">Saber Más</button>
+              <button class="btn btn1" data-bs-toggle="modal" data-bs-target="#botonModalNY" type="submit">Saber
+                Más</button>
             </div>
           </div>
           <div>
@@ -273,20 +307,24 @@
                         <div id="carouselNY" class="carousel slide" data-bs-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img src="../images/imgHab/newYork-Gal-1.jpg" class="d-block w-100 imgCarrusel" alt="Primera imagen de la galería de NY">
+                              <img src="../images/imgHab/newYork-Gal-1.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Primera imagen de la galería de NY">
                             </div>
                             <div class="carousel-item">
-                              <img src="../images/imgHab/newYork-Gal-2.jpg" class="d-block w-100 imgCarrusel" alt="Segunda imagen de la galería de NY">
+                              <img src="../images/imgHab/newYork-Gal-2.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Segunda imagen de la galería de NY">
                             </div>
                             <div class="carousel-item">
-                              <img src="../images/imgHab/newYork-Gal-3.jpg" class="d-block w-100 imgCarrusel" alt="Tercera imagen de la galería de NY">
+                              <img src="../images/imgHab/newYork-Gal-3.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Tercera imagen de la galería de NY">
                             </div>
                           </div>
                         </div>
                       </div>
                       <div class="col-12 col-lg-4 d-flex align-items-center textModal">
                         <div>
-                          <p>Esta habitación es una de las más solicitadas por los huéspedes dado que contiene todo lo que ellos buscan.</p>
+                          <p>Esta habitación es una de las más solicitadas por los huéspedes dado que contiene todo lo
+                            que ellos buscan.</p>
                           <ul>
                             <li>Desayuno en habitación.</li>
                             <li>Contiene dos baños totalmente equipados.</li>
@@ -307,24 +345,30 @@
       <div class="mt-5 pb-lg-5">
         <div class="row m-0 p-0">
           <section class="d-flex flex-column-reverse flex-md-row">
-          <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
-            <div>
-              <h3 class="titleCardHab">MADRID</h3>
-              <p class="subtitlteCardHab">2 Dormitorios / 1 Baño Privado / 2 a 4 Huéspedes</p>
-              <button class="btn btn1" data-bs-toggle="modal" data-bs-target="#botonModalMadrid" type="submit">Saber Más</button>
-            </div>
-          </div>
-          <div class="col-10 col-md-6 col-lg-6 d-flex justify-content-center mx-auto">
-            <div class="imgCardHabM d-flex justify-content-center">
-              <div class="infoImg">
-                <p class="titleImg">MADRID</p>
-                <p class="textImg">Madrid no es solo la capital, sino que además es la ciudad más grande del país. Situada en la zona centro de la península, resulta todo un exponente de la cultura mesetaria. Sus monumentos y fuentes, sus plazas y parques y la hermosura de sus castizos barrios en los que es posible disfrutar a todas horas de un buen vino acompañado de una deliciosa tapa. No puede extrañar que la capital de España sea el destino preferido de muchos turistas.</p>
+            <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+              <div>
+                <h3 class="titleCardHab">MADRID</h3>
+                <p class="subtitlteCardHab">2 Dormitorios / 1 Baño Privado / 2 a 4 Huéspedes</p>
+                <button class="btn btn1" data-bs-toggle="modal" data-bs-target="#botonModalMadrid" type="submit">Saber
+                  Más</button>
               </div>
             </div>
-          </div>
-        </section>
+            <div class="col-10 col-md-6 col-lg-6 d-flex justify-content-center mx-auto">
+              <div class="imgCardHabM d-flex justify-content-center">
+                <div class="infoImg">
+                  <p class="titleImg">MADRID</p>
+                  <p class="textImg">Madrid no es solo la capital, sino que además es la ciudad más grande del país.
+                    Situada en la zona centro de la península, resulta todo un exponente de la cultura mesetaria. Sus
+                    monumentos y fuentes, sus plazas y parques y la hermosura de sus castizos barrios en los que es
+                    posible disfrutar a todas horas de un buen vino acompañado de una deliciosa tapa. No puede extrañar
+                    que la capital de España sea el destino preferido de muchos turistas.</p>
+                </div>
+              </div>
+            </div>
+          </section>
           <div>
-            <div class="modal fade" id="botonModalMadrid" tabindex="-1" aria-labelledby="modalMadrid" aria-hidden="true">
+            <div class="modal fade" id="botonModalMadrid" tabindex="-1" aria-labelledby="modalMadrid"
+              aria-hidden="true">
               <div class="modal-dialog modal-xl">
                 <div class="modal-content modalBack">
                   <div class="modal-header">
@@ -337,20 +381,24 @@
                         <div id="carouselMadrid" class="carousel slide" data-bs-ride="carousel">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img src="../images/imgHab/madridGal-1.jpg" class="d-block w-100 imgCarrusel" alt="Primera imagen de la galería de Madrid">
+                              <img src="../images/imgHab/madridGal-1.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Primera imagen de la galería de Madrid">
                             </div>
                             <div class="carousel-item">
-                              <img src="../images/imgHab/madridGal-2.jpg" class="d-block w-100 imgCarrusel" alt="Segunda imagen de la galería de Madrid">
+                              <img src="../images/imgHab/madridGal-2.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Segunda imagen de la galería de Madrid">
                             </div>
                             <div class="carousel-item">
-                              <img src="../images/imgHab/madridGal-3.jpg" class="d-block w-100 imgCarrusel" alt="Tercera imagen de la galería de Madrid">
+                              <img src="../images/imgHab/madridGal-3.jpg" class="d-block w-100 imgCarrusel"
+                                alt="Tercera imagen de la galería de Madrid">
                             </div>
                           </div>
                         </div>
                       </div>
                       <div class="col-12 col-lg-4 d-flex align-items-center textModal">
                         <div>
-                          <p>Esta habitación es una de las más solicitadas por los huéspedes dado que contiene todo lo que ellos buscan.</p>
+                          <p>Esta habitación es una de las más solicitadas por los huéspedes dado que contiene todo lo
+                            que ellos buscan.</p>
                           <ul>
                             <li>Desayuno en habitación.</li>
                             <li>Contiene dos baños totalmente equipados.</li>
@@ -385,10 +433,17 @@
       </div>
       <div class="box-2">
         <h2 class="subtitle">Síguenos</h2>
-        <i class="bi bi-twitter red-social"></i>
-        <i class="bi bi-facebook red-social"></i>
-        <i class="bi bi-instagram red-social"></i>
-        <i class="bi bi-whatsapp red-social"></i>
+        <a href="https://www.facebook.com/" target="_blank" class="text-decoration-none text-white">
+          <i class="bi bi-facebook red-social"></i>
+        </a>
+        <a href="https://web.whatsapp.com/" target="_blank" class="text-decoration-none text-white">
+          <i class="bi bi-whatsapp red-social"></i>
+        </a>
+        <a href="https://www.instagram.com/" class="text-decoration-none text-white">
+          <i class="bi bi-instagram red-social"></i>
+        </a>
+        <a href="https://web.telegram.org/" target="_blank" class="text-decoration-none text-white">
+          <i class="bi bi-telegram red-social"></i>
       </div>
     </div>
     <div class="grupo-2 d-flex justify-content-center">
@@ -398,6 +453,9 @@
       </small>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,20 +1,20 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-.bgNav{
+.bgNav {
   background-color: white;
   position: fixed;
   width: 100%;
   z-index: 100;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: 'Pacifico', cursive;
 }
 
-.nav-link{
+.nav-link {
   font-family: 'didot-regular';
   font-family: 'Antic Didone', serif;
   font-weight: 600;
@@ -23,7 +23,7 @@
   font-size: 12px;
 }
 
-.modal-title{
+.modal-title {
   font-family: 'Antic Didone', serif;
   text-transform: uppercase;
   font-weight: bold;
@@ -31,22 +31,22 @@
   font-size: 15px;
 }
 
-.modal-text{
+.modal-text {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
   font-size: 13px;
 }
 
-.formulario{
+.formulario {
   margin: 0%;
   padding: 0%;
 }
 
-.textarea{
+.textarea {
   border: 1px solid #ced4da;
 }
 
-.imgcont{
+.imgcont {
   background-image: url('../images/imgCon/contact.jpg');
   max-width: 100%;
   height: 50vw;
@@ -56,7 +56,7 @@
   opacity: 0.9;
 }
 
-.titlePort{
+.titlePort {
   opacity: 10;
   z-index: 1;
   font-family: 'didot-regular';
@@ -71,7 +71,7 @@
   text-shadow: 0 0 0.1em black;
 }
 
-.subtitlePort{
+.subtitlePort {
   opacity: 1;
   font-family: 'Antic Didone', serif;
   letter-spacing: 13px;
@@ -80,7 +80,7 @@
   text-shadow: 0.1em 0.1em 0.15rem black;
 }
 
-.titleSec{
+.titleSec {
   margin-top: 50px;
   font-family: 'Antic Didone', serif;
   letter-spacing: 13px;
@@ -88,7 +88,7 @@
   color: black;
 }
 
-.subtitleSec{
+.subtitleSec {
   margin-top: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
@@ -97,14 +97,14 @@
   width: 700px;
 }
 
-.btn1{
+.btn1 {
   margin-top: 20px;
   border-color: #D5BDAF;
   color: #D5BDAF;
   width: 200px;
 }
 
-.btn1:hover{
+.btn1:hover {
   border-color: #C9ADA7;
   background-color: #C9ADA7;
   color: white;
@@ -118,12 +118,12 @@
   transition: opacity .3s linear;
 }
 
-.pie-pagina{
+.pie-pagina {
   width: 100%;
   background-color: #3c3c3b;
 }
 
-.grupo-1{
+.grupo-1 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -134,7 +134,7 @@
   padding: 45px 0px;
 }
 
-.box-1{
+.box-1 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -145,7 +145,7 @@
   font-size: 20px;
 }
 
-.box-2{
+.box-2 {
   font-family: 'Antic Didone', serif;
   width: 100%;
   height: 100%;
@@ -153,7 +153,7 @@
   align-items: center;
 }
 
-.red-social{
+.red-social {
   display: inline-block;
   width: 45px;
   height: 45px;
@@ -163,17 +163,18 @@
   line-height: 45px;
   text-align: center;
 }
-.subtitle{
+
+.subtitle {
   color: white;
   margin-bottom: 25px;
 }
 
-.text{
+.text {
   color: white;
   margin-bottom: 10px;
 }
 
-.copy{
+.copy {
   font-family: 'Antic Didone', serif;
   letter-spacing: 2px;
   font-size: 15px;
@@ -186,121 +187,125 @@ form {
 
 }
 
-.info h3{
+.info h3 {
   font-family: 'Antic Didone', serif;
   font-weight: 600;
 }
 
-.info p{
+.info p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
 
 }
 
 /* ### FOOTER FLOTANTE ## */
-.rssFlotante{
+.rssFlotante {
   width: 250px;
   position: sticky;
   top: 95vh;
-  left:100vw;
+  left: 100vw;
   opacity: .4;
   font-family: 'didot-regular';
 }
 
-.rssFlotante select{
+.rssFlotante select {
   border: 0;
 }
 
-.rssFlotante:hover{
+.rssFlotante:hover {
   opacity: .8;
   transition: opacity .5s linear;
 }
 
-.rssFlotante a:hover{
+.rssFlotante a:hover {
   opacity: .5;
   transition: opacity .5s linear;
 }
 
-@media (min-width: 750px) and (max-width: 992px){
-  
-  .imgHab{
+@media (min-width: 750px) and (max-width: 992px) {
+
+  .imgHab {
     max-width: 100%;
     height: 50vw;
   }
-  .titlePort{
+
+  .titlePort {
     letter-spacing: 15px;
     font-size: 50px;
     text-shadow: 0.1em 0.1em 0.2em black;
   }
-  .subtitlePort{
+
+  .subtitlePort {
     letter-spacing: 10px;
     font-size: 25px;
   }
 
-  .info{
+  .info {
     font-size: 150 px;
     align-items: center;
   }
 
-  .titleSec{
+  .titleSec {
     margin-top: 20px;
     letter-spacing: 10px;
     font-size: 30px;
   }
 
-  .subtitleSec{
+  .subtitleSec {
     margin-top: 10px;
     font-size: 15px;
     width: 500px;
   }
 
-  .btn1{
+  .btn1 {
     margin-top: 5px;
     width: 120px;
     font-size: 15px;
   }
 }
 
-@media (min-width: 200px) and (max-width: 768px){
+@media (min-width: 200px) and (max-width: 768px) {
 
-  .imgHab{
+  .imgHab {
     max-width: 100%;
     height: 50vw;
   }
-  .titlePort{
+
+  .titlePort {
     letter-spacing: 5px;
     font-size: 20px;
     text-shadow: 0.1em 0.1em 0.2em black;
   }
-  .subtitlePort{
+
+  .subtitlePort {
     letter-spacing: 1px;
     font-size: 10px;
   }
 
-  .formbutton{
-   margin-left: 50%;
-   margin-right: 50%;
+  .formbutton {
+    margin-left: 50%;
+    margin-right: 50%;
   }
 
-  .titleSec{
+  .titleSec {
     margin-top: 10px;
     letter-spacing: 1px;
     font-size: 20px;
   }
 
-  .subtitleSec{
+  .subtitleSec {
     margin-top: 10px;
     font-size: 12px;
     width: 200px;
   }
 
-  .btn1{
+  .btn1 {
     margin-top: 10px;
     width: 100px;
     font-size: 13px;
   }
 
-  .grupo-1{
+  .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
@@ -310,8 +315,8 @@ form {
 
 }
 
-@media all and (min-width:920px){
-  .imgcont{
+@media all and (min-width:920px) {
+  .imgcont {
     height: 100vh;
   }
 }

@@ -1,15 +1,15 @@
-.bgNav{
+.bgNav {
   background-color: white;
   position: fixed;
   width: 100%;
   z-index: 100;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: 'Pacifico', cursive;
 }
 
-.nav-link{
+.nav-link {
   font-family: 'Antic Didone', serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -21,7 +21,7 @@
   transition: opacity .3s linear;
 }
 
-.modal-title{
+.modal-title {
   font-family: 'Antic Didone', serif;
   text-transform: uppercase;
   font-weight: bold;
@@ -29,17 +29,17 @@
   font-size: 15px;
 }
 
-.modal-text{
+.modal-text {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
   font-size: 13px;
 }
 
-.carousel-item img{
+.carousel-item img {
   height: 50vw;
 }
 
-.textslide1{
+.textslide1 {
   font-size: 25px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -48,7 +48,7 @@
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
-.textslide2{  
+.textslide2 {
   font-family: 'didot-regular';
   font-family: 'Antic Didone', serif;
   letter-spacing: 3px;
@@ -56,23 +56,23 @@
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
-.more{
+.more {
   width: 90%;
 }
 
 
-.image4-conocenos{
+.image4-conocenos {
   height: 20vh;
   width: 100%;
 }
 
-.more a:hover{
+.more a:hover {
   opacity: .8;
   transition: opacity ease 1s;
 
 }
 
-.image-figure1{
+.image-figure1 {
   background-image: url(../images/imgConMas/portadaHab2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +80,7 @@
   height: 300px;
 }
 
-.image-figure2{
+.image-figure2 {
   background-image: url(../images/imgConMas/contact.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -88,7 +88,7 @@
   height: 300px;
 }
 
-.image-figure3{
+.image-figure3 {
   background-image: url(../images/imgConMas/comentariosPort.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -96,7 +96,7 @@
   height: 300px;
 }
 
-.image-figure4{
+.image-figure4 {
   background-image: url(../images/imgConMas/portadaCom.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -104,7 +104,7 @@
   height: 300px;
 }
 
-.textConMas{
+.textConMas {
   text-transform: uppercase;
   font-family: 'didot-regular';
   letter-spacing: 7px;
@@ -112,7 +112,7 @@
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
-.titleSec{
+.titleSec {
   margin-top: 100px;
   font-family: 'didot-regular';
   font-family: 'Antic Didone', serif;
@@ -121,19 +121,19 @@
   color: black;
 }
 
-.subtitleSec{
+.subtitleSec {
   font-family: 'Antic Didone', serif;
   font-weight: bold;
   letter-spacing: 5px;
   font-size: 25px;
 }
 
-h5{
+h5 {
   font-family: 'Antic Didone', serif;
   letter-spacing: 1px;
 }
 
-.textSec{
+.textSec {
   margin-top: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
@@ -141,14 +141,14 @@ h5{
   color: black;
 }
 
-.btn1{
+.btn1 {
   margin-top: 20px;
   border-color: #D5BDAF;
   color: #D5BDAF;
   width: 150px;
 }
 
-.btn1:hover{
+.btn1:hover {
   border-color: #C9ADA7;
   background-color: #C9ADA7;
   color: white;
@@ -158,12 +158,12 @@ h5{
   box-shadow: 0 0 0 0.25rem #C9ADA7;
 }
 
-.pie-pagina{
+.pie-pagina {
   width: 100%;
   background-color: #3c3c3b;
 }
 
-.grupo-1{
+.grupo-1 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -174,7 +174,7 @@ h5{
   padding: 45px 0px;
 }
 
-.box-1{
+.box-1 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -185,7 +185,7 @@ h5{
   font-size: 20px;
 }
 
-.box-2{
+.box-2 {
   font-family: 'Antic Didone', serif;
   width: 100%;
   height: 100%;
@@ -193,7 +193,7 @@ h5{
   align-items: center;
 }
 
-.red-social{
+.red-social {
   display: inline-block;
   width: 45px;
   height: 45px;
@@ -203,50 +203,51 @@ h5{
   line-height: 45px;
   text-align: center;
 }
-.subtitle{
+
+.subtitle {
   color: white;
   margin-bottom: 25px;
 }
 
-.text{
+.text {
   color: white;
   margin-bottom: 10px;
 }
 
-.copy{
+.copy {
   font-family: 'Antic Didone', serif;
   letter-spacing: 2px;
   font-size: 15px;
   color: white;
   margin-bottom: 20px;
 }
-/* ### FOOTER FLOTANTE ## */
-.rssFlotante{
+
+.rssFlotante {
   width: 250px;
   position: sticky;
   top: 95vh;
-  left:100vw;
+  left: 100vw;
   opacity: .4;
   font-family: 'didot-regular';
 }
 
-.rssFlotante select{
+.rssFlotante select {
   border: 0;
 }
 
-.rssFlotante:hover{
+.rssFlotante:hover {
   opacity: .8;
   transition: opacity .5s linear;
 }
 
-.rssFlotante a:hover{
+.rssFlotante a:hover {
   opacity: .5;
   transition: opacity .5s linear;
 }
 
 
-@media (min-width: 200px) and (max-width: 768px){
-  .grupo-1{
+@media (min-width: 200px) and (max-width: 768px) {
+  .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
@@ -255,51 +256,51 @@ h5{
   }
 }
 
-@media all and (min-width:720px){
+@media all and (min-width:720px) {
 
-  .carousel-item img{
+  .carousel-item img {
     height: 320px;
   }
 
-  .more{
+  .more {
     width: 60%;
   }
 
-  .textSec{
+  .textSec {
     margin-top: 5px;
     letter-spacing: 1px;
     font-size: 15px;
   }
-  
+
 }
 
-@media all and (min-width:992px){
+@media all and (min-width:992px) {
 
-  .carousel-item img{
+  .carousel-item img {
     height: 92vh;
   }
 
-  .imgs{
+  .imgs {
     height: 400px;
   }
 
-  .titleSec{
+  .titleSec {
     margin-top: 100px;
     font-family: 'Antic Didone', serif;
     letter-spacing: 15px;
     font-size: 50px;
     color: black;
   }
-  
-  .subtitleSec{
+
+  .subtitleSec {
     margin-top: 50px;
     font-family: 'Antic Didone', serif;
     font-weight: bold;
     letter-spacing: 10px;
     font-size: 28px;
   }
-  
-  .textSec{
+
+  .textSec {
     margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
@@ -316,15 +317,15 @@ h5{
     width: 70%;
   }
 
-  .image-figure3{
+  .image-figure3 {
     height: 600px;
     width: 100%;
   }
 
 }
 
-@media all and (min-width:920px){
-.carousel-item img{
-  height: 100vh;
-}
+@media all and (min-width:920px) {
+  .carousel-item img {
+    height: 100vh;
+  }
 }

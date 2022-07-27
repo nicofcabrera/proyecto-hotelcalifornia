@@ -1,15 +1,15 @@
-.bgNav{
+.bgNav {
   background-color: white;
   position: fixed;
   width: 100%;
   z-index: 100;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: 'Pacifico', cursive;
 }
 
-.nav-link{
+.nav-link {
   font-family: 'Antic Didone', serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -17,7 +17,7 @@
   font-size: 12px;
 }
 
-.modal-title{
+.modal-title {
   font-family: 'Antic Didone', serif;
   text-transform: uppercase;
   font-weight: bold;
@@ -25,13 +25,13 @@
   font-size: 15px;
 }
 
-.modal-text{
+.modal-text {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 1px;
   font-size: 13px;
 }
 
-.imgHab{
+.imgHab {
   background-image: url('../images/imgHab/portadaHab2.jpg');
   max-width: 100%;
   height: 50vw;
@@ -41,7 +41,7 @@
   opacity: 0.9;
 }
 
-.titlePort{
+.titlePort {
   opacity: 10;
   z-index: 1;
   font-family: 'didot-regular';
@@ -56,7 +56,7 @@
   text-shadow: 0 0 0.1em black;
 }
 
-.subtitlePort{
+.subtitlePort {
   opacity: 1;
   font-family: 'didot-regular';
   font-family: 'Antic Didone', serif;
@@ -66,7 +66,7 @@
   text-shadow: 0.1em 0.1em 0.15em black;
 }
 
-.titleSec{
+.titleSec {
   margin-top: 50px;
   font-family: 'didot-regular';
   font-family: 'Antic Didone', serif;
@@ -75,7 +75,7 @@
   color: black;
 }
 
-.subtitleSec{
+.subtitleSec {
   margin-top: 20px;
   font-family: 'Antic Didone', serif;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -85,7 +85,7 @@
   width: 700px;
 }
 
-.titleCardHab{
+.titleCardHab {
   margin-top: 50px;
   font-family: "europa-light";
   font-family: 'Antic Didone', serif;
@@ -94,21 +94,21 @@
   color: black;
 }
 
-.subtitlteCardHab{
+.subtitlteCardHab {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
   font-size: 17px;
   color: black;
 }
 
-.btn1{
+.btn1 {
   margin-top: 20px;
   border-color: #D5BDAF;
   color: #D5BDAF;
   width: 150px;
 }
 
-.btn1:hover{
+.btn1:hover {
   border-color: #C9ADA7;
   background-color: #C9ADA7;
   color: white;
@@ -118,7 +118,7 @@
   box-shadow: 0 0 0 0.25rem #C9ADA7;
 }
 
-.imgCardHabP{
+.imgCardHabP {
   background-image: url('../images/imgHab/paris.jpg');
   width: 500px;
   height: 500px;
@@ -127,7 +127,7 @@
   color: aliceblue;
 }
 
-.imgCardHabF{
+.imgCardHabF {
   background-image: url('../images/imgHab/fiyi.jpg');
   width: 500px;
   height: 500px;
@@ -136,7 +136,7 @@
   color: aliceblue;
 }
 
-.imgCardHabN{
+.imgCardHabN {
   background-image: url('../images/imgHab/newYork.jpg');
   width: 500px;
   height: 500px;
@@ -145,7 +145,7 @@
   color: aliceblue;
 }
 
-.imgCardHabM{
+.imgCardHabM {
   background-image: url('../images/imgHab/madrid.jpg');
   width: 500px;
   height: 500px;
@@ -154,25 +154,25 @@
   color: aliceblue;
 }
 
-.infoImg{
-  position:absolute;
-  overflow:hidden;
+.infoImg {
+  position: absolute;
+  overflow: hidden;
   width: 400px;
   height: 400px;
-  opacity:0;
+  opacity: 0;
   transition: opacity 0.3s;
   text-shadow: 0 0 .2em black;
 }
 
-.imgCardHab:hover{
+.imgCardHab:hover {
   opacity: 1;
 }
 
-.infoImg:hover{
+.infoImg:hover {
   opacity: 1;
 }
 
-.titleImg{
+.titleImg {
   position: absolute;
   margin-top: 100px;
   transition: margin-top 0.4s;
@@ -183,7 +183,7 @@
   color: #F2E9E4;
 }
 
-.textImg{
+.textImg {
   text-align: center;
   margin-top: 200px;
   transition: margin-top 0.4s;
@@ -193,15 +193,15 @@
   color: #F2E9E4;
 }
 
-.imgCarrusel{
+.imgCarrusel {
   height: 400px;
 }
 
-.modalBack{
+.modalBack {
   background-color: #F2E9E4;
 }
 
-.titleModal{
+.titleModal {
   font-family: "europa-light";
   font-family: 'Antic Didone', serif;
 
@@ -210,7 +210,7 @@
   color: black;
 }
 
-.textModal{
+.textModal {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
@@ -222,12 +222,12 @@
   transition: opacity .3s linear;
 }
 
-.pie-pagina{
+.pie-pagina {
   width: 100%;
   background-color: #3c3c3b;
 }
 
-.grupo-1{
+.grupo-1 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -238,7 +238,7 @@
   padding: 45px 0px;
 }
 
-.box-1{
+.box-1 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -249,7 +249,7 @@
   font-size: 20px;
 }
 
-.box-2{
+.box-2 {
   font-family: 'Antic Didone', serif;
   width: 100%;
   height: 100%;
@@ -257,7 +257,7 @@
   align-items: center;
 }
 
-.red-social{
+.red-social {
   display: inline-block;
   width: 45px;
   height: 45px;
@@ -267,17 +267,18 @@
   line-height: 45px;
   text-align: center;
 }
-.subtitle{
+
+.subtitle {
   color: white;
   margin-bottom: 25px;
 }
 
-.text{
+.text {
   color: white;
   margin-bottom: 10px;
 }
 
-.copy{
+.copy {
   font-family: 'Antic Didone', serif;
   letter-spacing: 2px;
   font-size: 15px;
@@ -286,135 +287,135 @@
 }
 
 /* ### FOOTER FLOTANTE ## */
-.rssFlotante{
+.rssFlotante {
   width: 250px;
   position: sticky;
   top: 95vh;
-  left:100vw;
+  left: 100vw;
   opacity: .4;
   font-family: 'didot-regular';
 }
 
-.rssFlotante select{
+.rssFlotante select {
   border: 0;
 }
 
-.rssFlotante:hover{
+.rssFlotante:hover {
   opacity: .8;
   transition: opacity .5s linear;
 }
 
-.rssFlotante a:hover{
+.rssFlotante a:hover {
   opacity: .5;
   transition: opacity .5s linear;
 }
 
-@media (min-width: 200px) and (max-width: 768px){
+@media (min-width: 200px) and (max-width: 768px) {
 
-  .imgHab{
+  .imgHab {
     max-width: 100%;
     height: 50vw;
   }
 
-  .titlePort{
+  .titlePort {
     letter-spacing: 5px;
     font-size: 20px;
     text-shadow: 0.1em 0.1em 0.2em black;
   }
-  
-  .subtitlePort{
+
+  .subtitlePort {
     letter-spacing: 1px;
     font-size: 10px;
   }
-  
-  .titleSec{
+
+  .titleSec {
     margin-top: 20px;
     letter-spacing: 5px;
     font-size: 20px;
   }
 
-  .subtitleSec{
+  .subtitleSec {
     margin-top: 10px;
     font-size: 12px;
     width: 200px;
   }
-  
-  .titleCardHab{
+
+  .titleCardHab {
     margin-top: 20px;
     letter-spacing: 3px;
     font-size: 15px;
   }
 
-  .subtitlteCardHab{
+  .subtitlteCardHab {
     letter-spacing: 2px;
     font-size: 10px;
   }
 
-  .btn1{
+  .btn1 {
     margin-top: 10px;
     width: 100px;
     font-size: 13px;
   }
 
-  .btn1:hover{
+  .btn1:hover {
     margin-top: 10px;
     width: 100px;
   }
 
-  
-  .imgCardHabP{
+
+  .imgCardHabP {
     width: 250px;
     height: 250px;
   }
 
-  .imgCardHabF{
+  .imgCardHabF {
     width: 250px;
     height: 250px;
   }
 
-  .imgCardHabN{
+  .imgCardHabN {
     width: 250px;
     height: 250px;
   }
 
-  .imgCardHabM{
+  .imgCardHabM {
     width: 250px;
     height: 250px;
   }
 
-  .infoImg{
+  .infoImg {
     width: 150px;
     height: 150px;
   }
 
-  .titleImg{
+  .titleImg {
     margin-top: 20px;
     letter-spacing: 3px;
     font-size: 10px;
   }
 
-  .textImg{
+  .textImg {
     margin-top: 45px;
     letter-spacing: 2px;
     font-size: 8px;
   }
 
-  .imgCarrusel{
+  .imgCarrusel {
     height: 170px;
   }
-  
-  .titleModal{
+
+  .titleModal {
     letter-spacing: 2px;
     font-size: 15px;
   }
-  
-  .textModal{
+
+  .textModal {
     margin-top: 10px;
     letter-spacing: 1px;
     font-size: 10px;
-  }  
-  
-  .grupo-1{
+  }
+
+  .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
@@ -423,116 +424,116 @@
   }
 }
 
-@media (min-width: 750px) and (max-width: 992px){
+@media (min-width: 750px) and (max-width: 992px) {
 
-  .imgHab{
+  .imgHab {
     max-width: 100%;
     height: 50vw;
   }
 
-  .titlePort{
+  .titlePort {
     letter-spacing: 15px;
     font-size: 50px;
     text-shadow: 0.1em 0.1em 0.2em black;
   }
-  
-  .subtitlePort{
+
+  .subtitlePort {
     letter-spacing: 10px;
     font-size: 25px;
   }
-  
-  .titleSec{
+
+  .titleSec {
     margin-top: 20px;
     letter-spacing: 10px;
     font-size: 30px;
   }
 
-  .subtitleSec{
+  .subtitleSec {
     margin-top: 10px;
     font-size: 15px;
     width: 500px;
   }
 
 
-  .titleCardHab{
+  .titleCardHab {
     margin-top: 20px;
     letter-spacing: 5px;
     font-size: 20px;
   }
 
-  .subtitlteCardHab{
+  .subtitlteCardHab {
     letter-spacing: 2px;
     font-size: 13px;
   }
 
-  .btn1{
+  .btn1 {
     margin-top: 5px;
     width: 120px;
     font-size: 15px;
   }
 
-  .btn1:hover{
+  .btn1:hover {
     margin-top: 5px;
     width: 120px;
   }
 
-  
-  .imgCardHabP{
+
+  .imgCardHabP {
     width: 350px;
     height: 350px;
   }
 
-  .imgCardHabF{
+  .imgCardHabF {
     width: 350px;
     height: 350px;
   }
 
-  .imgCardHabN{
+  .imgCardHabN {
     width: 350px;
     height: 350px;
   }
 
-  .imgCardHabM{
+  .imgCardHabM {
     width: 350px;
     height: 350px;
   }
 
-  .infoImg{
+  .infoImg {
     width: 250px;
     height: 250px;
   }
 
-  .titleImg{
+  .titleImg {
     margin-top: 20px;
     letter-spacing: 3px;
     font-size: 25px;
   }
 
-  .textImg{
+  .textImg {
     margin-top: 70px;
     letter-spacing: 2px;
     font-size: 13px;
   }
 
-  .imgCarrusel{
+  .imgCarrusel {
     height: 300px;
   }
-  
-  .titleModal{
+
+  .titleModal {
     letter-spacing: 7px;
     font-size: 25px;
   }
-  
-  .textModal{
+
+  .textModal {
     margin-top: 20px;
     letter-spacing: 1px;
     font-size: 15px;
-  }  
+  }
 
 }
 
-@media all and (min-width:920px){
-  .imgHab{
+@media all and (min-width:920px) {
+  .imgHab {
     height: 100vh;
   }
 }
