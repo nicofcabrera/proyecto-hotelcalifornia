@@ -81,9 +81,9 @@
 .titleCardCom{
   margin-top: 35px;
   font-family: 'Antic Didone', serif;
+  font-weight: bold;
   letter-spacing: 3px;
   font-size: 25px;
-  font-weight: lighter;
 }
 
 .imgCardCom{
@@ -98,11 +98,9 @@
   transition: opacity .3s linear;
 }
 
-
-
 .pie-pagina{
   width: 100%;
-  background-color: black;
+  background-color: #3c3c3b;
 }
 
 .grupo-1{
@@ -128,6 +126,7 @@
 }
 
 .box-2{
+  font-family: 'Antic Didone', serif;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -135,28 +134,31 @@
 }
 
 .red-social{
- display: inline-block;
- color: white;
- width: 45px;
- height: 45px;
- margin-right: 10px;
- background-color: darkslategray;
- line-height: 45px;
- text-align: center;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  color: white;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
 }
 .subtitle{
-  color: azure;
+  color: white;
   margin-bottom: 25px;
 }
 
 .text{
-  color: cadetblue;
+  color: white;
   margin-bottom: 10px;
 }
 
 .copy{
-  text-align: center;
+  font-family: 'Antic Didone', serif;
+  letter-spacing: 2px;
+  font-size: 15px;
   color: white;
+  margin-bottom: 20px;
 }
 
 .btn1{
