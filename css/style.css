@@ -323,4 +323,8 @@ h5{
 
 }
 
-
+@media all and (min-width:920px){
+.carousel-item img{
+  height: 100vh;
+}
+}

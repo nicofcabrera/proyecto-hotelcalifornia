@@ -312,6 +312,6 @@ form {
 
 @media all and (min-width:920px){
   .imgcont{
-    height: 95vh;
+    height: 100vh;
   }
 }
