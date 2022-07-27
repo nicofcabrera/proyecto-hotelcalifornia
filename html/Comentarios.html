@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/comentarios.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet">
+  <title>Comentarios</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Hotel California</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./Comodidades.html">Comodidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Habitaciones.html">Habitaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./Comentarios.html">Comentarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link reserva" href="#" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="modal fade" id="modalReserva" tabindex="-1" aria-labelledby="modalReservaLabel" aria-hidden="true">
+    <article class="modal-dialog">
+      <article class="modal-content">
+        <article class="modal-header">
+          <h5 class="modal-title" id="modalReservaLabel">Reservas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </article>
+        <article class="modal-body ">
+          <form class="text-center">  
+            <label for="lbl-lda" class="me-2 modal-text">Llegada</label>
+            <input type="date" name="llegada" id="lbl-lda" class="me-md-3 mb-3 mb-md-2 d-block d-md-inline mx-auto modal-text" min="2022-07-25" max="2022-12-25" required>
+            <label for="lbl-sda" class="me-2 modal-text">Salida</label>
+            <input type="date" name="salida" id="lbl-sda" class="d-block d-md-inline mb-3 mb-md-2 mx-auto modal-text" min="2022-07-26" max="2022-12-25" required>  
+            <label for="lbl-adul" class="d-block mb-2 modal-text">Adultos</label>
+            <input type="number" name="adultos" id="lbl-adul" min="1" max="10" value="1" class="d-block mx-auto mb-3 mb-md-2 modal-text" required>
+            <label for="lbl-nino" class="d-block mb-2 modal-text">Niños</label>
+            <input type="number" id="lbl-nino" min="0" max="10" value="0" class="d-block mx-auto mb-3 mb-md-2 modal-text" required>
+            <label for="lbl-hab" class="d-block mb-2 modal-text">Habitaciones</label>
+            <input type="number" min="1" max="6" value="1" class="d-block mx-auto mb-3 mb-md-2 modal-text" id="lbl-hab" required>
+            <label for="lbl-codigo" class="d-block mb-1 modal-text">Código promocional</label>
+            <input type="text" id="lbl-codigo" class="d-block mx-auto mb-3 modal-text" maxlength="4" name="codigo">
+            <section class="modal-footer">
+              <input type="submit" value="Reservar" class="w-50 mx-auto btn btn1">
+            </section>
+          </form>
+        </article>
+      </article>
+    </article>
+  </section>
+  <main>
+    <section>
+      <div class="imgHab d-flex justify-content-center align-items-center">
+        <div>
+          <h1 class="titlePort">COMENTARIOS</h1>
+          <p class="subtitlePort text-center">La opinión sirve para mejorar</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="titleSec text-center">Opiniones & Comentarios</h1>
+        <div class="d-flex justify-content-center">
+          <p class="subtitleSec text-center">El Hotel California siempre tiene en cuenta las opiniones de sus huéspedes para mejorar día a día, y lograr satisfacer las necesidades de todos. Ayúdanos a mejorar para vos y para tú familia y amigos.</p>
+        </div>
+      </div>
+    </section>
+    <section class="d-flex justify-content-center m-0 p-0 mb-5 comentarios">
+      <div class="row m-0 p-0 d-flex justify-content-center">
+        <div class="container col-lg-4 col-md-6 col-12">
+          <img src="../images/imgCome/coment1.jpg" alt="foto">
+          <p>
+            "Excelente y super bonito Me encantan las habitaciones porque son
+            super amplias e iluminadas y los baños enormes siempre con una tina
+            deliciosa. El servicio excelente desde que te reciben hasta que te
+            vas. Las instalaciones en gral, excelentes! El bufete muy rico".
+          </p>
+          <div class="card-footer bg-transparent text-center">
+            Carolina Cardozo 
+          </div>
+        </div>
+        <div class="container col-lg-4 col-md-6 col-12">
+          <img src="../images/imgCome/coment2.jpg" alt="foto">
+          <p>"Excelente hotel de Buenos Aires! Un placer desde el momento en que te
+            buscan del Aeropuerto. Las habitaciones muy amplias, el servicio
+            genial, conserge, recepcion, room service, todo impecable. Trato
+            personalizado. Sus restaurantes excelentes. Para repetir.!"</p>
+          <div class="card-footer bg-transparent text-center">
+            Santiago Germano
+          </div>
+        </div>
+        <div class="container col-lg-4 col-md-6 col-12">
+          <img src="../images/imgCome/coment3.jpg" alt="foto" />
+          <p>
+            "Hotel excelente, un lujo. El trato desde el primer contacto es
+            destacable, siempre dispuestos. Cuartos impecables, con cafe gratis
+            dentro de las mismas. El desayuno completísimo en el restaurant Elena.
+            La pileta muy linda. Te permiten usar las instalaciones post check
+            out."
+          </p>
+          <div class="card-footer bg-transparent text-center">Erik Sheridan</div>
+        </div>
+        <div class="container col-lg-4 col-md-6 col-12">
+          <img src="../images/imgCome/comentariosPort.jpg" alt="foto" />
+          <p>
+            "Hotel excelente, un lujo. El trato desde el primer contacto es
+            destacable, siempre dispuestos. Cuartos impecables, con cafe gratis
+            dentro de las mismas. El desayuno completísimo en el restaurant Elena.
+            La pileta muy linda. Te permiten usar las instalaciones post check
+            out."
+          </p>
+          <div class="card-footer bg-transparent text-center">Paul Buriek</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box-1">
+        <p>Hotel California</p>
+      </div>
+      <div class="box-2">
+        <h2 class="subtitle">Sobre nosotros</h2>
+        <p class="text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, nulla.
+        </p>
+        <p class="text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, nulla.
+        </p>
+      </div>
+      <div class="box-2">
+        <h2 class="subtitle">Síguenos</h2>
+        <i class="bi bi-twitter red-social"></i>
+        <i class="bi bi-facebook red-social"></i>
+        <i class="bi bi-instagram red-social"></i>
+        <i class="bi bi-whatsapp red-social"></i>
+      </div>
+    </div>
+    <div class="grupo-2 d-flex justify-content-center">
+      <small class="copy">
+        &copy;2022 <b>Hotel California</b> - Todos los derechos
+        reservados
+      </small>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

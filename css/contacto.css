@@ -1,0 +1,276 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-link{
+  font-family: 'didot-regular';
+  font-family: 'Antic Didone', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.modal-title{
+  font-family: 'Antic Didone', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.modal-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.formulario{
+  margin: 0%;
+  padding: 0%;
+}
+
+.textarea{
+  border: 1px solid #ced4da;
+}
+
+.imgcont{
+  background-image: url('../images/imgCon/contact.jpg');
+  max-width: 100%;
+  height: 50vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  opacity: 0.9;
+}
+
+.titlePort{
+  opacity: 10;
+  z-index: 1;
+  font-family: 'didot-regular';
+  font-family: 'Antic Didone', serif;
+  letter-spacing: 13px;
+  font-size: 80px;
+  color: aliceblue;
+  padding-bottom: 12px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: fit-content;
+  text-shadow: 0 0 0.1em black;
+}
+
+.subtitlePort{
+  opacity: 1;
+  font-family: 'Antic Didone', serif;
+  letter-spacing: 13px;
+  font-size: 30px;
+  color: aliceblue;
+  text-shadow: 0.1em 0.1em 0.15rem black;
+}
+
+.titleSec{
+  margin-top: 50px;
+  font-family: 'Antic Didone', serif;
+  letter-spacing: 13px;
+  font-size: 50px;
+  color: black;
+}
+
+.subtitleSec{
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  font-size: 17px;
+  color: black;
+  width: 700px;
+}
+
+.btn1{
+  margin-top: 20px;
+  border-color: #D5BDAF;
+  color: #D5BDAF;
+  width: 200px;
+}
+
+.btn1:hover{
+  border-color: #C9ADA7;
+  background-color: #C9ADA7;
+  color: white;
+}
+
+.btn1:focus {
+  box-shadow: 0 0 0 0.25rem #C9ADA7;
+}
+
+.fade {
+  transition: opacity .3s linear;
+}
+
+.pie-pagina{
+  width: 100%;
+  background-color: black;
+}
+
+.grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  column-gap: 50px;
+  padding: 45px 0px;
+}
+
+.box-1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.box-2{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-social{
+ display: inline-block;
+ color: white;
+ width: 45px;
+ height: 45px;
+ margin-right: 10px;
+ background-color: darkslategray;
+ line-height: 45px;
+ text-align: center;
+}
+.subtitle{
+  color: azure;
+  margin-bottom: 25px;
+}
+
+.text{
+  color: cadetblue;
+  margin-bottom: 10px;
+}
+
+.copy{
+  text-align: center;
+  color: white;
+}
+
+form {
+  font-family: 'Antic Didone', serif;
+
+}
+
+.info h3{
+  font-family: 'Antic Didone', serif;
+  font-weight: 600;
+}
+
+.info p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+
+}
+
+@media (min-width: 750px) and (max-width: 992px){
+  
+  .imgHab{
+    max-width: 100%;
+    height: 50vw;
+  }
+  .titlePort{
+    letter-spacing: 15px;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  .subtitlePort{
+    letter-spacing: 10px;
+    font-size: 25px;
+  }
+
+  .info{
+    font-size: 150 px;
+    align-items: center;
+  }
+
+  .titleSec{
+    margin-top: 20px;
+    letter-spacing: 10px;
+    font-size: 30px;
+  }
+
+  .subtitleSec{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 500px;
+  }
+
+  .btn1{
+    margin-top: 5px;
+    width: 120px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 768px){
+
+  .imgHab{
+    max-width: 100%;
+    height: 50vw;
+  }
+  .titlePort{
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  .subtitlePort{
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+
+  .formbutton{
+   margin-left: 50%;
+   margin-right: 50%;
+  }
+
+  .titleSec{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+
+  .subtitleSec{
+    margin-top: 10px;
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .btn1{
+    margin-top: 10px;
+    width: 100px;
+    font-size: 13px;
+  }
+
+  .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    column-gap: 50px;
+    padding: 35px 0px;
+  }
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/contacto.css">
+  <title>Hotel California - Contacto</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Hotel California</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./Comodidades.html">Comodidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Habitaciones.html">Habitaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./Contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Comentarios.html">Comentarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link reserva" href="#" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="modal fade" id="modalReserva" tabindex="-1" aria-labelledby="modalReservaLabel" aria-hidden="true">
+    <article class="modal-dialog">
+      <article class="modal-content">
+        <article class="modal-header">
+          <h5 class="modal-title" id="modalReservaLabel">Reservas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </article>
+        <article class="modal-body ">
+          <form class="text-center">  
+            <label for="lbl-lda" class="me-2 modal-text">Llegada</label>
+            <input type="date" name="llegada" id="lbl-lda" class="me-md-3 mb-3 mb-md-2 d-block d-md-inline mx-auto modal-text" min="2022-07-25" max="2022-12-25" required>
+            <label for="lbl-sda" class="me-2 modal-text">Salida</label>
+            <input type="date" name="salida" id="lbl-sda" class="d-block d-md-inline mb-3 mb-md-2 mx-auto modal-text" min="2022-07-26" max="2022-12-25" required>  
+            <label for="lbl-adul" class="d-block mb-2 modal-text">Adultos</label>
+            <input type="number" name="adultos" id="lbl-adul" min="1" max="10" value="1" class="d-block mx-auto mb-3 mb-md-2 modal-text" required>
+            <label for="lbl-nino" class="d-block mb-2 modal-text">Niños</label>
+            <input type="number" id="lbl-nino" min="0" max="10" value="0" class="d-block mx-auto mb-3 mb-md-2 modal-text" required>
+            <label for="lbl-hab" class="d-block mb-2 modal-text">Habitaciones</label>
+            <input type="number" min="1" max="6" value="1" class="d-block mx-auto mb-3 mb-md-2 modal-text" id="lbl-hab" required>
+            <label for="lbl-codigo" class="d-block mb-1 modal-text">Código promocional</label>
+            <input type="text" id="lbl-codigo" class="d-block mx-auto mb-3 modal-text" maxlength="4" name="codigo">
+            <section class="modal-footer">
+              <input type="submit" value="Reservar" class="w-50 mx-auto btn btn1">
+            </section>
+          </form>
+        </article>
+      </article>
+    </article>
+  </section>
+  <main>
+    <section>
+      <div class="imgcont d-flex justify-content-center align-items-center">
+        <div>
+          <h1 class="titlePort">CONTACTO</h1>
+          <p class="subtitlePort text-center">Siempre a su disposición</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="titleSec text-center">Contacto & Mensaje</h1>
+        <div class="d-flex justify-content-center">
+          <p class="subtitleSec text-center">Sí desea más información, complete el siguiente formulario. Nos pondremos en contacto con usted a la brevedad.</p>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-lg-6 "> 
+            <form class="row g-3">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre y apellido" maxlength="30" required>
+                <label for="floatingInput" class="ms-2">Nombre y apellido</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingemail" placeholder="name@example.com" maxlength="40" required>
+                <label for="floatingemail" class="ms-2">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="floatingInput" placeholder="011-54669555" maxlength="15" required>
+                <label for="floatingInput" class="ms-2">Número de contacto</label>
+              </div>
+              <div>
+                <select class="form-select mb-3 p-3" aria-label="Default select example" required>
+                  <option selected disabled value="">¿Cómo llegaste a nuestra página?</option>
+                  <option value="1">Redes sociales</option>
+                  <option value="2">Recomendación</option>
+                  <option value="3">Publicidad en la via pública</option>
+                </select>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required></textarea>
+                <label for="floatingTextarea" class="ms-2">Comentario</label>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button class="btn btn1" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+          <div class="info col-md-6 col-sm-12 col-lg-6 d-flex row justify-content-center">
+            <div class="text-center">
+              <h3 class="mt-3 fs-5">También podés contactarnos a través de los siguientes medios</h3>
+              <p><i class="bi bi-geo-alt-fill"></i> Juana Manso 1650 - CABA</p>
+              <p><i class="bi bi-envelope"></i> contacto@hotelcalifornia.com</p>
+              <p><i class="bi bi-telephone"></i> 011-54996345</p>
+            </div>
+            <div class="mapacontact d-flex justify-content-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.496962631305!2d-58.3616392!3d-34.6168797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d0ca7e7719%3A0x906b6dbb16ee7294!2sJuana%20Manso%201650%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1658800160046!5m2!1ses-419!2sar" width="500" height="235" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box-1">
+        <p>Hotel California</p>
+      </div>
+      <div class="box-2">
+        <h2 class="subtitle">Sobre nosotros</h2>
+        <p class="text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, nulla.
+        </p>
+        <p class="text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, nulla.
+        </p>
+      </div>
+      <div class="box-2">
+        <h2 class="subtitle">Síguenos</h2>
+        <i class="bi bi-twitter red-social"></i>
+        <i class="bi bi-facebook red-social"></i>
+        <i class="bi bi-instagram red-social"></i>
+        <i class="bi bi-whatsapp red-social"></i>
+      </div>
+    </div>
+    <div class="grupo-2 d-flex justify-content-center">
+      <small class="copy">
+        &copy;2022 <b>Hotel California</b> - Todos los derechos
+        reservados
+      </small>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,300 @@
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-link{
+  font-family: 'Antic Didone', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.fade {
+  transition: opacity .3s linear;
+}
+
+.modal-title{
+  font-family: 'Antic Didone', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.modal-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.carousel-item img{
+  height: 50vw;
+}
+
+.textslide1{
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: 'didot-regular';
+  font-family: 'Antic Didone', serif;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.textslide2{  
+  font-family: 'didot-regular';
+  font-family: 'Antic Didone', serif;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.more{
+  width: 90%;
+}
+
+
+.image4-conocenos{
+  height: 20vh;
+  width: 100%;
+}
+
+.more a:hover{
+  opacity: .8;
+  transition: opacity ease 1s;
+
+}
+
+.image-figure1{
+  background-image: url(../images/imgConMas/portadaHab2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.image-figure2{
+  background-image: url(../images/imgConMas/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.image-figure3{
+  background-image: url(../images/imgConMas/comentariosPort.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.image-figure4{
+  background-image: url(../images/imgConMas/portadaCom.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.textConMas{
+  text-transform: uppercase;
+  font-family: 'didot-regular';
+  letter-spacing: 7px;
+  font-size: 30px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.titleSec{
+  margin-top: 100px;
+  font-family: 'didot-regular';
+  font-family: 'Antic Didone', serif;
+  letter-spacing: 13px;
+  font-size: 50px;
+  color: black;
+}
+
+.subtitleSec{
+  font-family: 'didot-regular';
+  font-family: 'Antic Didone', serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
+h5{
+  font-family: 'Antic Didone', serif;
+  letter-spacing: 1px;
+}
+
+.textSec{
+  margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: black;
+}
+
+.btn1{
+  margin-top: 20px;
+  border-color: #D5BDAF;
+  color: #D5BDAF;
+  width: 150px;
+}
+
+.btn1:hover{
+  border-color: #C9ADA7;
+  background-color: #C9ADA7;
+  color: white;
+}
+
+.btn1:focus {
+  box-shadow: 0 0 0 0.25rem #C9ADA7;
+}
+
+.pie-pagina{
+  width: 100%;
+  background-color: black;
+}
+
+.grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  column-gap: 50px;
+  padding: 45px 0px;
+}
+
+.box-1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.box-2{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-social{
+ display: inline-block;
+ color: white;
+ width: 45px;
+ height: 45px;
+ margin-right: 10px;
+ background-color: darkslategray;
+ line-height: 45px;
+ text-align: center;
+}
+.subtitle{
+  color: azure;
+  margin-bottom: 25px;
+}
+
+.text{
+  color: cadetblue;
+  margin-bottom: 10px;
+}
+
+.copy{
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 200px) and (max-width: 768px){
+  .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    column-gap: 50px;
+    padding: 35px 0px;
+  }
+}
+/* ######### MEDIA QUERIES TABLET ########## */
+
+@media all and (min-width:720px){
+  /* --- CAROUSEL ----- */
+  .carousel-item img{
+    height: 320px;
+  }
+
+  /* ---- CONOCENOS MAS ----- */
+  .more{
+    width: 60%;
+  }
+
+  .textSec{
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+  
+}
+
+/* ######### MEDIA QUERIES DESKTOP ########## */
+
+@media all and (min-width:992px){
+  /* ----- CAROUSEL ----- */
+  .carousel-item img{
+    height: 40vw;
+  }
+
+  /* ----- SOBRE NOSOTROS ----- */
+  .imgs{
+    height: 400px;
+  }
+
+  .titleSec{
+    margin-top: 100px;
+    font-family: 'Antic Didone', serif;
+    letter-spacing: 15px;
+    font-size: 50px;
+    color: black;
+  }
+  
+  .subtitleSec{
+    margin-top: 50px;
+    font-family: 'Antic Didone', serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 28px;
+  }
+  
+  .textSec{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: black;
+  }
+
+  /* ------ CONOCENOS MAS -------  */
+  .more {
+    width: 70%;
+  }
+
+  .contenedorHabCon {
+    width: 70%;
+  }
+
+  .image-figure3{
+    height: 600px;
+    width: 100%;
+  }
+
+
+
+}
+
+
