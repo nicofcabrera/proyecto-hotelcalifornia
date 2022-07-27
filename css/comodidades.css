@@ -224,6 +224,30 @@
 
 }
 
+/* ### FOOTER FLOTANTE ## */
+.rssFlotante{
+  width: 250px;
+  position: sticky;
+  top: 95vh;
+  left:100vw;
+  opacity: .4;
+  font-family: 'didot-regular';
+}
+
+.rssFlotante select{
+  border: 0;
+}
+
+.rssFlotante:hover{
+  opacity: .8;
+  transition: opacity .5s linear;
+}
+
+.rssFlotante a:hover{
+  opacity: .5;
+  transition: opacity .5s linear;
+}
+
 @media (min-width: 750px) and (max-width: 992px){
   .imgCom{
     max-width: 100%;
@@ -270,5 +294,11 @@
     position: relative;
     box-shadow: 0.1em 0.1em 1em .2em #000000a7;
     transition: box-shadow .3s linear;
+  }
+
+  .imgCom{
+    height: 92vh;
+    background-position: bottom;
+    background-size: cover;
   }
 }

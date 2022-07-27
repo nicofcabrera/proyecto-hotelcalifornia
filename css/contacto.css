@@ -186,6 +186,30 @@ form {
 
 }
 
+/* ### FOOTER FLOTANTE ## */
+.rssFlotante{
+  width: 250px;
+  position: sticky;
+  top: 95vh;
+  left:100vw;
+  opacity: .4;
+  font-family: 'didot-regular';
+}
+
+.rssFlotante select{
+  border: 0;
+}
+
+.rssFlotante:hover{
+  opacity: .8;
+  transition: opacity .5s linear;
+}
+
+.rssFlotante a:hover{
+  opacity: .5;
+  transition: opacity .5s linear;
+}
+
 @media (min-width: 750px) and (max-width: 992px){
   
   .imgHab{
@@ -273,4 +297,10 @@ form {
     padding: 35px 0px;
   }
 
+}
+
+@media all and (min-width:920px){
+  .imgcont{
+    height: 95vh;
+  }
 }

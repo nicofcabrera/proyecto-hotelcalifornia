@@ -211,6 +211,30 @@ h5{
   text-align: center;
   color: white;
 }
+/* ### FOOTER FLOTANTE ## */
+.rssFlotante{
+  width: 250px;
+  position: sticky;
+  top: 95vh;
+  left:100vw;
+  opacity: .4;
+  font-family: 'didot-regular';
+}
+
+.rssFlotante select{
+  border: 0;
+}
+
+.rssFlotante:hover{
+  opacity: .8;
+  transition: opacity .5s linear;
+}
+
+.rssFlotante a:hover{
+  opacity: .5;
+  transition: opacity .5s linear;
+}
+
 
 @media (min-width: 200px) and (max-width: 768px){
   .grupo-1{
@@ -247,7 +271,7 @@ h5{
 @media all and (min-width:992px){
   /* ----- CAROUSEL ----- */
   .carousel-item img{
-    height: 40vw;
+    height: 92vh;
   }
 
   /* ----- SOBRE NOSOTROS ----- */
@@ -282,6 +306,7 @@ h5{
   /* ------ CONOCENOS MAS -------  */
   .more {
     width: 70%;
+    padding-bottom: 8em;
   }
 
   .contenedorHabCon {
