@@ -188,7 +188,7 @@
 @media (min-width: 200px) and (max-width: 768px) {
   .imgCom {
     max-width: 100%;
-    height: 50vw;
+    height: 50vh;
   }
 
   .titlePort {
@@ -257,11 +257,6 @@
 }
 
 @media (min-width: 750px) and (max-width: 992px) {
-  .imgCom {
-    max-width: 100%;
-    height: 50vw;
-  }
-
   .titlePort {
     letter-spacing: 15px;
     font-size: 50px;

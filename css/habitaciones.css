@@ -34,7 +34,7 @@
 .imgHab {
   background-image: url('../images/imgHab/portadaHab2.jpg');
   max-width: 100%;
-  height: 50vw;
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   color: aliceblue;
@@ -311,10 +311,6 @@
 
 @media (min-width: 200px) and (max-width: 768px) {
 
-  .imgHab {
-    max-width: 100%;
-    height: 50vw;
-  }
 
   .titlePort {
     letter-spacing: 5px;
@@ -425,10 +421,6 @@
 
 @media (min-width: 750px) and (max-width: 992px) {
 
-  .imgHab {
-    max-width: 100%;
-    height: 50vw;
-  }
 
   .titlePort {
     letter-spacing: 15px;
