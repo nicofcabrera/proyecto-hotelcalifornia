@@ -43,13 +43,11 @@
   font-size: 25px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-family: 'didot-regular';
   font-family: 'Antic Didone', serif;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .textslide2 {
-  font-family: 'didot-regular';
   font-family: 'Antic Didone', serif;
   letter-spacing: 3px;
   font-size: 15px;
@@ -106,7 +104,7 @@
 
 .textConMas {
   text-transform: uppercase;
-  font-family: 'didot-regular';
+  font-family: 'Antic Didone', serif;
   letter-spacing: 7px;
   font-size: 30px;
   text-shadow: 0.1em 0.1em 0.2em black;
@@ -114,7 +112,6 @@
 
 .titleSec {
   margin-top: 100px;
-  font-family: 'didot-regular';
   font-family: 'Antic Didone', serif;
   letter-spacing: 13px;
   font-size: 50px;
@@ -227,16 +224,18 @@ h5 {
   position: sticky;
   top: 95vh;
   left: 100vw;
+  background-color: #3c3c3b;
   opacity: .4;
-  font-family: 'didot-regular';
+  font-family: 'Antic Didone', serif;
 }
 
 .rssFlotante select {
   border: 0;
+  background-color: #3c3c3b;
 }
 
 .rssFlotante:hover {
-  opacity: .8;
+  opacity: 1;
   transition: opacity .5s linear;
 }
 
