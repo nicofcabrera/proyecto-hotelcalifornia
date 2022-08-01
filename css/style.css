@@ -6,7 +6,10 @@
 }
 
 .navbar-brand {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Allura', cursive;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .nav-link {
@@ -178,8 +181,9 @@ h5 {
   justify-content: center;
   align-items: center;
   color: white;
-  font-family: 'Pacifico', cursive;
-  font-size: 20px;
+  font-family: 'Allura', cursive;
+  letter-spacing: 2px;
+  font-size: 35px;
 }
 
 .box-2 {
