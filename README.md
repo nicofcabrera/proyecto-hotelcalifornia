@@ -12,3 +12,5 @@ Seguramente hay cosas para corregir, estamos en esa de querer seguir mejorando c
 Link del deploy : [Hotel California](https://hotelcalifornia-rc.netlify.app/)
 
 _Gracias por ver :)_
+
+[![Logo Linkedin](https://cdn-icons-png.flaticon.com/24/1384/1384014.png "Ir a Linkedin de Nicolas Cabrera")](https://www.linkedin.com/in/nicolas-francisco-cabrera/)
